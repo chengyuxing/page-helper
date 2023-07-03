@@ -1,0 +1,23 @@
+{
+  "name": "page-helper",
+  "version": "1.0.1-0",
+  "description": "Simple page helper for Array#slice(start, end).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "rebuild": "rm -rf ./lib && npm run build",
+    "publish": "npm publish",
+    "prepublish": "npm version prerelease"
+  },
+  "keywords": [
+    "page",
+    "pagehelper"
+  ],
+  "author": "chengyuxing",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  }
+}
