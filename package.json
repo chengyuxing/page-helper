@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
-    "rebuild": "rm -rf ./lib && npm run build"
+    "rebuild": "rm -rf ./lib && npm run build",
+    "publish": "npm publish"
   },
   "keywords": [
     "page",
