@@ -1,6 +1,6 @@
 {
   "name": "simple-pagehelper",
-  "version": "1.0.1-0",
+  "version": "1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/chengyuxing/page-helper.git"
@@ -13,8 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
     "rebuild": "rm -rf ./lib && npm run build",
-    "publish": "npm publish",
-    "prepublish": "npm version prerelease"
+    "publish": "npm publish"
   },
   "keywords": [
     "page",
