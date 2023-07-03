@@ -1,10 +1,11 @@
 {
-  "name": "pagehelper",
-  "version": "1.0.1-1",
+  "name": "simple-pagehelper",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/chengyuxing/page-helper.git"
   },
+  "private": false,
   "homepage": "https://github.com/chengyuxing/page-helper",
   "description": "Simple page helper for Array#slice(start, end).",
   "main": "index.js",

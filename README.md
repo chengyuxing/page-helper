@@ -4,7 +4,7 @@ Simple page helper for array data pageable.
 
 ## Installation
 
-`npm i pagehelper --save`
+`npm i simple-pagehelper --save`
 
 ## Usage
 
