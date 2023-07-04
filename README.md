@@ -1,15 +1,15 @@
-# page-helper
+# page-params
 
-Simple page helper for array data pageable.
+Simple page params for array data pageable.
 
 ## Installation
 
-`npm i simple-pagehelper --save`
+`npm i page-params --save`
 
 ## Usage
 
 ```typescript
-import {PageParams} from "page-helper";
+import PageParams from "page-params";
 
 const data = [];
 
