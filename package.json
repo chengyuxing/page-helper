@@ -1,5 +1,5 @@
 {
-  "name": "simple-pagehelper",
+  "name": "page-params",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -8,22 +8,33 @@
   "private": false,
   "homepage": "https://github.com/chengyuxing/page-helper",
   "description": "Simple page helper for Array#slice(start, end).",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/page-params.umd.js",
+  "module": "lib/page-params.esm.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "src/",
+    "lib/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p .",
+    "dev": "rollup -c",
     "rebuild": "rm -rf ./lib && npm run build",
     "publish": "npm publish"
   },
   "keywords": [
     "page",
-    "pagehelper"
+    "pagehelper",
+    "pageparams"
   ],
   "author": "chengyuxing",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-terser": "^7.0.2",
     "@types/node": "^20.3.3",
+    "ts-loader": "^9.4.4",
     "typescript": "^5.1.6"
   }
 }

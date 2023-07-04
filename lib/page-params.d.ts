@@ -1,7 +1,7 @@
 /**
  * page helper for Array#slice(start, end).
  */
-export declare class PageHelper {
+export declare class PageParams {
     private readonly page;
     private readonly size;
     private readonly recordCount;
@@ -13,7 +13,7 @@ export declare class PageHelper {
      * @param size page size
      * @param recordCount data record count
      */
-    static of(page: number, size: number, recordCount: number): PageHelper;
+    static of(page: number, size: number, recordCount: number): PageParams;
     /**
      * start of data index.
      */

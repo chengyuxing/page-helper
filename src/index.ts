@@ -1,3 +1,3 @@
-import {PageHelper} from "./page-helper";
+import {PageParams} from "./page-params";
 
-export {PageHelper}
+export {PageParams as default}

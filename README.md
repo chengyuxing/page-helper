@@ -9,11 +9,11 @@ Simple page helper for array data pageable.
 ## Usage
 
 ```typescript
-import {PageHelper} from "page-helper";
+import {PageParams} from "page-helper";
 
 const data = [];
 
-const p = PageHelper.of(3, 15, data.length);
+const p = PageParams.of(3, 15, data.length);
 
 data.slice(p.start(), p.end());
 

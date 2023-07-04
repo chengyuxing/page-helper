@@ -1,7 +1,7 @@
 /**
  * page helper for Array#slice(start, end).
  */
-export class PageHelper {
+export class PageParams {
     private readonly page!: number;
     private readonly size!: number;
     private readonly recordCount!: number;
@@ -29,8 +29,8 @@ export class PageHelper {
      * @param size page size
      * @param recordCount data record count
      */
-    public static of(page: number, size: number, recordCount: number): PageHelper {
-        return new PageHelper(page, size, recordCount);
+    public static of(page: number, size: number, recordCount: number): PageParams {
+        return new PageParams(page, size, recordCount);
     }
 
     /**
