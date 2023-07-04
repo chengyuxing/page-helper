@@ -1,3 +1,3 @@
-import {PageParams} from "./page-params";
+import {ArrayPageHelper} from "./array-page-helper";
 
-export {PageParams as default}
+export {ArrayPageHelper as default}

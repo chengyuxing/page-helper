@@ -1,5 +1,5 @@
 {
-  "name": "page-params",
+  "name": "array-page-helper",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -7,13 +7,12 @@
   },
   "private": false,
   "homepage": "https://github.com/chengyuxing/page-helper",
-  "description": "Simple page helper for Array#slice(start, end).",
-  "main": "lib/page-params.umd.js",
-  "module": "lib/page-params.esm.js",
+  "description": "Simple page helper supports params for array paging.",
+  "main": "lib/array-page-helper.umd.js",
+  "module": "lib/array-page-helper.esm.js",
   "types": "lib/index.d.ts",
   "type": "module",
   "files": [
-    "src/",
     "lib/"
   ],
   "scripts": {
@@ -24,8 +23,10 @@
   },
   "keywords": [
     "page",
+    "pageable",
     "pagehelper",
-    "pageparams"
+    "pageparams",
+    "array"
   ],
   "author": "chengyuxing",
   "license": "MIT",

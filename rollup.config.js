@@ -5,17 +5,17 @@ export default {
     input: './src/index.ts',
     output: [
         {
-            file: './lib/page-params.umd.js',
+            file: './lib/array-page-helper.umd.js',
             format: 'umd',
             name: 'pageHelper',
             exports: 'default',
             sourcemap: true
         }, {
-            file: './lib/page-params.esm.js',
+            file: './lib/array-page-helper.esm.js',
             format: 'esm',
             sourcemap: true
         }, {
-            file: './lib/page-params.cjs',
+            file: './lib/array-page-helper.cjs',
             format: 'cjs',
             exports: 'default',
             sourcemap: true
